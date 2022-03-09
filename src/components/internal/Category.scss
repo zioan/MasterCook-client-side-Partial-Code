@@ -1,0 +1,20 @@
+.category {
+  h1 {
+    margin-left: 1rem;
+  }
+
+  .single-category {
+    // width: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    img {
+      max-width: 250px;
+      height: auto;
+      margin: 2rem auto;
+    }
+  }
+}

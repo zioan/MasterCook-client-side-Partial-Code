@@ -1,0 +1,82 @@
+.order-container {
+  background: var(--dark-background);
+  padding: 1rem;
+  box-shadow: var(--box-shadow);
+
+  .new-order {
+    display: grid;
+    grid-template-columns: 200px 80px 80px 60px 20px;
+
+    grid-template-rows: auto;
+    grid-template-areas: "order quantity price total remove";
+
+    .grid-order {
+      grid-area: order;
+      margin-bottom: 1rem;
+    }
+    .grid-quantity {
+      grid-area: quantity;
+    }
+    .grid-price {
+      grid-area: price;
+    }
+    .grid-total {
+      grid-area: total;
+    }
+    .grid-remove {
+      grid-area: remove;
+    }
+
+    padding: 0 0.5rem;
+
+    .header {
+      margin-bottom: 1rem;
+    }
+  }
+
+  textarea {
+    resize: none;
+    width: 95%;
+
+    margin: 1rem auto;
+  }
+
+  .total-cost {
+    padding-right: 0.5rem;
+    margin-bottom: 1rem;
+    h4 {
+      text-align: right;
+
+      span {
+        color: var(--text-link-color);
+      }
+    }
+  }
+
+  .user-delivery-details {
+    margin: 1rem 0.5rem;
+
+    h3 {
+      text-align: center;
+    }
+  }
+
+  .order-btn {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .delivery-detail {
+    h3 {
+      margin: 1rem 0.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .order-container {
+    .new-order {
+      grid-template-columns: 100px 80px 80px 60px 20px;
+    }
+  }
+}

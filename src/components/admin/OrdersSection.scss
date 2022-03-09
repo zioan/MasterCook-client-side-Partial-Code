@@ -1,0 +1,32 @@
+.orders-container {
+  display: flex;
+  margin: 1rem auto;
+  justify-content: center;
+  gap: 2rem;
+
+  .curier {
+    margin-bottom: 1rem;
+    // width: 800px;
+
+    input {
+      width: 220px;
+    }
+
+    hr,
+    h4 {
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    .daily {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .delivered {
+    margin-top: 1rem;
+  }
+}

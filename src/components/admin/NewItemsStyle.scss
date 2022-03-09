@@ -1,0 +1,45 @@
+.new-product,
+.category-editor {
+  margin-bottom: 1rem;
+  margin: 1rem auto;
+
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .margin-bottom {
+    margin-bottom: 1.5rem;
+  }
+
+  .single-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+
+    span {
+      color: var(--text-link-color);
+    }
+  }
+
+  button {
+    margin-right: 1rem;
+  }
+
+  hr {
+    margin: 1rem 0;
+  }
+
+  .single-category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+}

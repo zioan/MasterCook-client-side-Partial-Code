@@ -1,0 +1,66 @@
+.customer {
+  h1 {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+  }
+}
+
+.account-page {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.customer-single-order {
+  position: relative;
+  width: 550px;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+
+  .order-date {
+    color: var(--text-link-color);
+    margin-bottom: 1rem;
+  }
+
+  .single-item {
+    margin: 0.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .order-details {
+    h4 {
+      margin: 0.5rem 0;
+    }
+    .order-extra {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .total-order {
+    margin-top: 1rem;
+    color: var(--text-link-color);
+    margin: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  span {
+    color: var(--text-link-color);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .customer-single-order {
+    width: 100%;
+    margin: 0.5rem;
+  }
+}

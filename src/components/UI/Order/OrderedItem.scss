@@ -1,0 +1,58 @@
+.single-product {
+  margin-bottom: 1rem;
+
+  .product-row {
+    display: grid;
+    grid-template-columns: 200px 80px 80px 60px 20px;
+
+    grid-template-rows: auto;
+    grid-template-areas: "order quantity price total remove";
+    align-items: flex-start;
+
+    .grid-order {
+      grid-area: order;
+      margin-bottom: 0;
+      padding-right: 1rem;
+    }
+    .grid-quantity {
+      grid-area: quantity;
+      display: flex;
+      gap: 1rem;
+
+      p {
+        cursor: default;
+      }
+    }
+    .grid-price {
+      grid-area: price;
+      cursor: default;
+    }
+    .grid-total {
+      grid-area: total;
+      cursor: default;
+    }
+    .grid-remove {
+      grid-area: remove;
+      margin-top: 0.2rem;
+    }
+
+    button {
+      background: transparent;
+      color: var(--text-light-color);
+      padding: 0;
+      margin: 0;
+      border: none;
+      &:hover {
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .single-product {
+    .product-row {
+      grid-template-columns: 100px 80px 80px 60px 20px;
+    }
+  }
+}

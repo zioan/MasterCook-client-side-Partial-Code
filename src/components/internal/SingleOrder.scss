@@ -1,0 +1,40 @@
+.single-order {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .order-extra {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background: var(--text-link-color);
+    color: var(--primary-color);
+  }
+
+  .customer {
+    display: flex;
+    gap: 2rem;
+  }
+
+  h3 {
+    margin-bottom: 1rem;
+    text-decoration: underline;
+  }
+
+  .order-item {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-left: 2.6rem;
+  }
+
+  span {
+    color: var(--text-link-color);
+  }
+
+  select {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+}

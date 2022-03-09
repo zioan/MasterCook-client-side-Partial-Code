@@ -1,0 +1,17 @@
+.admin-page {
+  .buttons {
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    button {
+      margin: 1rem;
+    }
+  }
+  .new-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,57 @@
+@import "../../style/mixins.scss";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
+
+.navbar-header {
+  background-color: var(--light-background);
+
+  padding: 0.5rem 0;
+  margin-bottom: 2rem;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      cursor: pointer;
+    }
+
+    .navigation {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      button {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.navbar-footer {
+  border-bottom: 2px solid var(--dark-background);
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    line-height: 1.8;
+
+    p {
+      word-spacing: 0.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-header {
+    .header {
+      flex-direction: column;
+
+      .navigation {
+        flex-direction: column;
+      }
+    }
+  }
+}

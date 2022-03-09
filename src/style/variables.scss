@@ -1,0 +1,29 @@
+:root {
+  --background-img: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23979797' fill-opacity='0.29' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  color: var(--text-light-color);
+  --primary-color: rgb(255, 255, 255);
+  --dark-background: rgb(243, 243, 243);
+  --light-background: rgb(255, 255, 255);
+  --middle-background: rgb(37, 40, 53);
+  --text-dark-color: #292929;
+  --text-light-color: #363636;
+  --text-link-color: rgb(114, 194, 39);
+  // --text-link-color: #9a62f3;
+  --text-danger-color: #f71919;
+  --tag-color: rgb(114, 194, 39);
+  --border-color: rgb(112, 112, 112);
+  --light-color: #ffffff;
+  --danger-color: #c71a1a;
+  --danger-light-color: #e08a8a;
+
+  --box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  --box-shadow-light: rgba(4, 4, 39, 0.85) 0px 50px 100px -20px,
+    rgba(221, 221, 221, 0.9) 0px 30px 60px -30px,
+    rgba(24, 49, 75, 0.6) 0px -2px 6px 0px inset;
+
+  --box-shadow-btn: 0 10px 20px rgba(50, 50, 93, 0.25),
+    0 8px 8px rgba(0, 0, 0, 0.3);
+}
